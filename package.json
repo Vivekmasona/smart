@@ -1,0 +1,17 @@
+{
+  "name": "vercel-mini-browser",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo build not needed for static + api",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^3.4.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
